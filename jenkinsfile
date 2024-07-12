@@ -12,7 +12,7 @@ pipeline {
             steps {
                 git 'https://(GIT_TOKEN)@github.com/sanjay444-art/gcp-tf-jenkins.git' // Replace with your repository URL
                 // if authentication required:
-                // git credentilasid: 'git-token', url: 'https://github.com/sanjay444-art/gcp-tf-jenkins.git'
+                // git credentialsid: 'git-token', url: 'https://github.com/sanjay444-art/gcp-tf-jenkins.git'
              }
         }
 
