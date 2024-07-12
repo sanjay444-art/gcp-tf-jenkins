@@ -10,8 +10,10 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo/your-terraform-project.git' // Replace with your repository URL
-            }
+                git 'https://(GIT_TOKEN)@github.com/sanjay444-art/gcp-tf-jenkins.git' // Replace with your repository URL
+                // if authentication required:
+                // git credentilasid: 'git-token', url: 'https://github.com/sanjay444-art/gcp-tf-jenkins.git'
+             }
         }
 
         stage('Terraform Init') {
