@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 script {
-                    git url: "https:$(GIT_CREDENTIALS)@github.com/sanjay444-art/gcp-tf-jenkins.git"
+                    git url: "https://$(GIT_CREDENTIALS)@github.com/sanjay444-art/gcp-tf-jenkins.git"
              }
         }
     }
