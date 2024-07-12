@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://$(GIT_TOKEN)@github.com/sanjay444-art/gcp-tf-jenkins.git' // Replace with your repository URL
+                git 'https://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@github.com/sanjay444-art/gcp-tf-jenkins.git' // Replace with your repository URL
                 // if authentication required:
                 // git credentialsid: 'git-token', url: 'https://github.com/sanjay444-art/gcp-tf-jenkins.git'
              }
