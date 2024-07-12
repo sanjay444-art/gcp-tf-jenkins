@@ -1,0 +1,47 @@
+pipeline {
+    agent any
+
+    environment {
+        GOOGLE_APPLICATION_CREDENTIALS = credentials('gcp-service-account') // Jenkins credential ID for GCP service account key
+        PROJECT_ID = 'your-gcp-project-id'
+        REGION = 'us-central1'
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/your-repo/your-terraform-project.git' // Replace with your repository URL
+            }
+        }
+
+        stage('Terraform Init') {
+            steps {
+                script {
+                    sh 'terraform init'
+                }
+            }
+        }
+
+        stage('Terraform Plan') {
+            steps {
+                script {
+                    sh 'terraform plan -out=tfplan'
+                }
+            }
+        }
+
+        stage('Terraform Apply') {
+            steps {
+                script {
+                    sh 'terraform apply -input=false tfplan'
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            cleanWs()
+        }
+    }
+}
