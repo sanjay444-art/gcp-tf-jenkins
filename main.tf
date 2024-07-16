@@ -3,8 +3,9 @@ resource "google_storage_bucket" "my_bucket" {
   project                  = "my-project"
   location                 = "US"
   force_destroy            = true
-  public_access+prevention = "enforced"
+  public_access_prevention = "enforced"
+}
 
-  
 
-  
+
+
