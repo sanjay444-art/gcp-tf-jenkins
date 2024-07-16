@@ -1,0 +1,18 @@
+2024-07-16 05:01:27.045 [info] Log level: Info
+2024-07-16 05:01:27.045 [info] Validating found git in: "git"
+2024-07-16 05:01:27.045 [info] Using git "2.34.1" from "git"
+2024-07-16 05:01:27.045 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-16 05:01:27.045 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-16 05:01:27.045 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-16 05:01:27.045 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-16 05:01:28.701 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-16 05:02:01.245 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-16 05:02:55.322 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-16 05:02:55.340 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-07-16 05:02:55.359 [info] Open repository: /home/sanjay_siddi/cloud-deploy-tutorials/tutorials/e2e-run/terraform-config/.terraform/modules/project-services
+2024-07-16 05:02:55.399 [info] > git config --get commit.template [21ms]
+2024-07-16 05:02:55.401 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [5ms]
+2024-07-16 05:02:55.431 [info] > git status -z -uall [13ms]
+2024-07-16 05:02:55.458 [info] > git config --get commit.template [3ms]
+2024-07-16 05:02:55.480 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [4ms]
+2024-07-16 05:02:55.510 [info] > git status -z -uall [12ms]

@@ -1,0 +1,31 @@
+Launching language server: /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.30.2@darwin/bin/terraform-ls serve
+Client: Stopped --> Starting
+[Error - 5:32:45 AM] Terraform LS connection error: (0)
+write EPIPE
+undefined
+[Error - 5:32:45 AM] Terraform LS connection error: (1)
+write EPIPE
+2.0
+[Error - 5:32:45 AM] Stopping server failed
+Error: Client is not running and can't be stopped. It's current state is: starting
+	at w.shutdown (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.30.2@darwin/out/extension.js:2:494556)
+	at w.stop (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.30.2@darwin/out/extension.js:2:494137)
+	at w.stop (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.30.2@darwin/out/extension.js:2:660290)
+	at w.handleConnectionError (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.30.2@darwin/out/extension.js:2:500656)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[Error - 5:32:45 AM] Stopping server failed
+Error: Client is not running and can't be stopped. It's current state is: starting
+	at w.shutdown (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.30.2@darwin/out/extension.js:2:494556)
+	at w.stop (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.30.2@darwin/out/extension.js:2:494137)
+	at w.stop (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.30.2@darwin/out/extension.js:2:660290)
+	at w.handleConnectionError (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.30.2@darwin/out/extension.js:2:500656)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Failure to start terraform-ls. Please check your configuration settings and reload this window
+Client: Starting --> Stopped
+[Error - 5:32:45 AM] terraform client: couldn't create connection to server.
+  Message: write EPIPE
+  Code: -32099 
+Initialization error handled by handler
+[Error - 5:32:45 AM] 
+/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.30.2@darwin/bin/terraform-ls: /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.30.2@darwin/bin/terraform-ls: cannot execute binary file
+[Error - 5:32:45 AM] Server process exited with code 126.

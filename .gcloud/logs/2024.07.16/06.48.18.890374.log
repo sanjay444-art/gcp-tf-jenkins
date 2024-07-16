@@ -1,0 +1,9 @@
+2024-07-16 06:48:18,892 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2024-07-16 06:48:18,958 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2024-07-16 06:48:18,960 DEBUG    root            Running [gcloud.config.set] with arguments: [SECTION/PROPERTY: "account", VALUE: "sanjay.siddi@wipro.com"]
+2024-07-16 06:48:18,995 INFO     ___FILE_ONLY___ Updated property [core/account].
+
+2024-07-16 06:48:18,997 DEBUG    root            Chosen display Format:default
+2024-07-16 06:48:18,997 INFO     root            Display format: "default"
+2024-07-16 06:48:18,998 DEBUG    root            SDK update checks are disabled.
+2024-07-16 06:48:19,000 DEBUG    root            Metrics reporting process started...

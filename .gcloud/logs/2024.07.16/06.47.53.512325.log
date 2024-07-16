@@ -1,0 +1,28 @@
+2024-07-16 06:47:53,513 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2024-07-16 06:47:53,517 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'list']
+2024-07-16 06:47:53,520 DEBUG    root            Running [gcloud.auth.list] with arguments: []
+2024-07-16 06:47:53,728 DEBUG    root            Chosen display Format:    table[title='Credentialed Accounts'](
+        status.yesno(yes='*', no=''):label=ACTIVE,
+        account
+    )
+2024-07-16 06:47:53,729 INFO     root            Display format: "    table[title='Credentialed Accounts'](
+        status.yesno(yes='*', no=''):label=ACTIVE,
+        account
+    )"
+2024-07-16 06:47:53,773 INFO     ___FILE_ONLY___ Credentialed Accounts
+2024-07-16 06:47:53,774 INFO     ___FILE_ONLY___ 
+
+
+2024-07-16 06:47:53,774 INFO     ___FILE_ONLY___ ACTIVE: *
+2024-07-16 06:47:53,774 INFO     ___FILE_ONLY___ 
+
+2024-07-16 06:47:53,774 INFO     ___FILE_ONLY___ ACCOUNT: sanjay.siddi@wipro.com
+2024-07-16 06:47:53,775 INFO     ___FILE_ONLY___ 
+
+2024-07-16 06:47:53,775 INFO     ___FILE_ONLY___ 
+To set the active account, run:
+    $ gcloud config set account `ACCOUNT`
+
+
+2024-07-16 06:47:53,775 DEBUG    root            SDK update checks are disabled.
+2024-07-16 06:47:53,778 DEBUG    root            Metrics reporting process started...
