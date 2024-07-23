@@ -11,7 +11,9 @@ pipeline {
         stage('Checkout') {
             steps {
                 script {
-                    git url: "https://$(GIT_TOKEN)@github.com/sanjay444-art/gcp-tf-jenkins.git"
+                    git url: 'https://$(GIT_TOKEN)@github.com/sanjay444-art/gcp-tf-jenkins.git'
+                   // clone the repository
+                   git branch: 'main' url: https://github.com/sanjay444-art/gcp-tf-jenkins.git
              }
         }
     }
